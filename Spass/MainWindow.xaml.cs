@@ -24,5 +24,15 @@ namespace Spass
         {
             InitializeComponent();
         }
+
+        private void button_Click(object sender, RoutedEventArgs e)
+        {
+            label2.Content = "Danke";
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            button2.Content = "HAHAHAHA als ob";
+        }
     }
 }
